@@ -1,0 +1,10 @@
+CREATE TABLE `user` (
+	`id_user` INT(11) NOT NULL AUTO_INCREMENT,
+	`mail` VARCHAR(50) NOT NULL,
+	`password` VARCHAR(50) NOT NULL,
+	PRIMARY KEY (`id_user`)
+)
+COLLATE='utf8mb4_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=4
+;
